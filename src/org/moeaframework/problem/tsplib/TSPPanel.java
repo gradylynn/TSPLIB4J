@@ -230,8 +230,8 @@ public class TSPPanel extends JPanel {
 	 */
 	private double[] toDisplayCoordinates(Node node, boolean isGeographical) {
 		double[] position = node.getPosition();
-		double x = position[1];
-		double y = position[0];
+		double x = -position[0];
+		double y = position[1];
 		
 		if (isGeographical) {
 			x = GeographicalDistance.toGeographical(x);

@@ -152,7 +152,7 @@ public class TSPExample {
 	public static void main(String[] args) throws IOException {
 		// create the TSP problem instance and display panel
 		TSPInstance instance = new TSPInstance(
-				new File("./data/tsp/pr76.tsp"));
+				new File("./data/tsp/xqf131.tsp.txt"));
 		
 		TSPPanel panel = new TSPPanel(instance);
 		panel.setAutoRepaint(false);
